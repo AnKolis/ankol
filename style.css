@@ -166,6 +166,8 @@ h1{
     justify-content: center;
     position: relative;
     width: 100%;
+
+    
 }
 
 .welcome>a{
@@ -328,6 +330,10 @@ span{
 
 .facts>div>ul>li>a{
 	color: white;
+}
+
+.facts>div>ul{
+	list-style: disc;
 }
 
 
