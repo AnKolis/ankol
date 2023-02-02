@@ -76,7 +76,6 @@ header{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-
 }
 
 nav{
@@ -89,7 +88,7 @@ nav>ul{
 }
 
 nav>ul>li{
-	padding: 0 10px;
+	margin: 0 10px;
 }
 
 nav>ul>li>a{
@@ -97,6 +96,10 @@ nav>ul>li>a{
     text-shadow: 4px 3px 10px black;
     font-weight: 400;
     transition: text-shadow 0.5s;
+    display: block;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 
@@ -107,15 +110,16 @@ nav>ul>li>a:hover{
 
 
 .resume{
-    border-radius: 50px;
-    padding: 0 10px;
+    display: block;
     background: #AC77C4;
     color: #fff;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 26px;
     box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
     text-align: center;
     transition: all 0.5s;
+    padding: 0 10px;
+    height: auto;
 }
 
 .resume:hover{
